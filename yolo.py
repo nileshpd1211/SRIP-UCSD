@@ -19,8 +19,8 @@ from PIL import Image
 
 from yolo3.model import get_yolo3_model, get_yolo3_inference_model#, get_yolo3_prenms_model
 from yolo3.postprocess_np import yolo3_postprocess_np
-from yolo2.model import get_yolo2_model, get_yolo2_inference_model
-from yolo2.postprocess_np import yolo2_postprocess_np
+# from yolo2.model import get_yolo2_model, get_yolo2_inference_model
+# from yolo2.postprocess_np import yolo2_postprocess_np
 from common.data_utils import preprocess_image
 from common.utils import get_classes, get_anchors, get_colors, draw_boxes
 from tensorflow.keras.utils import multi_gpu_model
