@@ -8,8 +8,7 @@ A general YOLO pipeline which gives option to choose from different yolo models 
 # agruments related to train.py
 
 Note: celeba_train_small.txt and celeba_val_small.txt represents the dataset prepared in the format compatible with this yolo repository.
-[train.py]
-# python train.py -h
+[train.py](https://github.com/david8862/keras-YOLOv3-model-set/blob/master/train.py)# python train.py -h
 usage: train.py [-h] [--model_type MODEL_TYPE] [--anchors_path ANCHORS_PATH]
                 [--model_image_size MODEL_IMAGE_SIZE]
                 [--weights_path WEIGHTS_PATH]
