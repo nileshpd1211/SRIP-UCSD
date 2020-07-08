@@ -8,8 +8,6 @@ A general YOLO pipeline which gives option to choose from different yolo models 
 
 
 ## Training on Celeba dataset [./FaceDetection]
-# agruments related to train.py
-
 This FaceDetection folder contains three sub-folders:
 1. Yolo_support: contains all the files for setting up yolo networks, configurations and prepared celebA data
 2. YoloIpython: Contains Ipython notebooks for training yolo networks for face detection
