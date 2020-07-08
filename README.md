@@ -2,14 +2,12 @@
 
 ## Introduction
 
-A general YOLO pipeline which gives option to choose from different yolo models and backbone for training on CelebA dataset for face detection. This repository is maintained by Nilesh, Guoren and Hamed as a part of the SRIP summer project, University of California San Diego(UCSD).
+A general YOLO pipeline which gives option to choose from different yolo models and backbone for training on CelebA dataset for face detection. This repository also contains work on Speech classification and localization. This repository is maintained by Guoren Zhong, Hamed Omidvar and Nilesh Prasad Pandey as a part of the SRIP summer project, University of California San Diego(UCSD).
 
 ## Training on Celeba dataset
 # agruments related to train.py
 
 Note: celeba_train_small.txt and celeba_val_small.txt represents the dataset prepared in the format compatible with this yolo repository.
-3. [train.py](https://github.com/david8862/keras-YOLOv3-model-set/blob/master/train.py)
-```
 # python train.py -h
 usage: train.py [-h] [--model_type MODEL_TYPE] [--anchors_path ANCHORS_PATH]
                 [--model_image_size MODEL_IMAGE_SIZE]
