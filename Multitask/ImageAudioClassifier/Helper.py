@@ -1,6 +1,3 @@
-# Yossi Adi wrote ClassificationLoader  (GCommandLoader with few changes)
-# Yosi Shrem wrote some of ImbalancedDatasetSampler
-
 from torch.utils.data import Dataset, DataLoader
 from torch.utils.data.sampler import Sampler
 import os
@@ -8,9 +5,6 @@ import torch
 import math
 import utils
 from scipy import ndimage, misc
-# Author - Yossi Adi
-
-# from __future__ import print_function
 import torch.nn.functional as F
 from torch.autograd import Variable
 import torch
