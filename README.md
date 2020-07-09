@@ -15,3 +15,6 @@ This FaceDetection folder contains three sub-folders:
 
 Note: celeba_train_small.txt and celeba_val_small.txt in the Yolo_support represents the dataset prepared in the format compatible with this yolo repository.
 
+## Combined Training for Audio and Image [./Multitask]
+This folder contains combined training of MobileNet v2 based classifier for image and audio classification. Currently, we have trained a combined model on CIFAR-10 and google command dataset for classification. Further plan is to incorporate object localization with audio classification.
+
